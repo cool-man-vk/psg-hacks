@@ -6,6 +6,9 @@
     padding:35px;
     display: block;
 }
+h5 {
+   font-size:18px;
+}
 .top-foot 
 {
     width:100%;
@@ -19,12 +22,13 @@
 .foot-lists 
 {
     list-style: none;
+    padding:6px;
 }
 .foot-lists>li>a
 {
     text-decoration: none; 
     color:white;
-    font-size:18px;
+    font-size:16px;
     transition:all .5s;
 }
 .foot-lists>li>a:hover 

@@ -13,7 +13,7 @@ const Footer = () => {
                   <li><a href="/">EMnist classify</a></li>
               </ul>
             </div>
-            <div style={{'justify-content': 'center','display':'block'}}>
+            <div style={{'justify-content': 'center','display':'block','padding':'8px'}}>
                     <h5 style={{ 'color': 'white' }}>Get to us on</h5>
                     <ul class="social" style={{ 'list-style': 'none', 'display': 'flex', 'padding': '20px' }}>
                     <a href="/">
