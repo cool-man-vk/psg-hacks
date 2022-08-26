@@ -1,12 +1,15 @@
 import classes from './Navbar.module.css';
 import { Link } from 'react-router-dom';
+import logo from './assets/logo.png';
 
 
 const Navbar = () => {
    return(
       <div className={classes.navbar}>
            <div className={classes.logo}>
-               <a href="/">HOME</a>
+               <a href="/">
+                 <img src={logo} alt="logo" />
+               </a>
            </div>
            <div className={classes.options}>
                <ul>
